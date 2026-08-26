@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colegio Juvenal Rendon</title>
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== BARRA DE NAVEGACIÓN ===== -->
+  <header class="navbar">
+    <div class="logo">Colegio <span>Juvenal Rendon</span></div>
+
+    <ul class="nav-links">
+      <li><a href="#institucion">Nuestra Institución</a></li>
+      <li><a href="#filosofia">Filosofía</a></li>
+      <li><a href="#nivel">Nivel Académico</a></li>
+      <li><a href="#experiencia">Experiencia Juvenil</a></li>
+      <li><a href="#instalaciones">Instalaciones</a></li>
+    </ul>
+
+  </header>
+
+  <!-- ===== CARRUSEL ===== -->
+  <section class="carousel-container" id="inicio">
+    <div class="carousel-slide" id="carouselSlide">
+      <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200&h=500&fit=crop&crop=center" alt="Estudiantes felices" />
+      <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&h=500&fit=crop&crop=center" alt="Aula moderna" />
+      <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=1200&h=500&fit=crop&crop=center" alt="Laboratorio STEAM" />
+      <img src="https://images.unsplash.com/photo-1523050854058-8df90110c7f1?w=1200&h=500&fit=crop&crop=center" alt="Deportes" />
+    </div>
+
+    <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+    <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+
+    <div class="carousel-indicators" id="indicators"></div>
+  </section>
+
+  <!-- ===== NUESTRA INSTITUCIÓN ===== -->
+  <section class="section" id="institucion">
+    <h2 class="section-title">Nuestra Institución</h2>
+    <div style="margin-bottom: 2.5rem;">
+      <h3 style="text-align:center; color:#004e8c; font-weight:400; font-size:1.3rem; margin-bottom:0.2rem;">Formando a los ciudadanos del mundo</h3>
+    </div>
+
+    <div class="grid-3" style="margin-bottom: 2rem;">
+      <div class="card"><span class="icon">🎯</span><h3>Misión</h3><p>Formar líderes con pensamiento crítico y compromiso social, impulsando el desarrollo sostenible.</p></div>
+      <div class="card"><span class="icon">🔭</span><h3>Visión</h3><p>Ser referente educativo en América Latina por nuestra excelencia académica e innovación.</p></div>
+      <div class="card"><span class="icon">💎</span><h3>Valores</h3><p>Respeto, integridad, responsabilidad, solidaridad y pasión por el aprendizaje.</p></div>
+    </div>
+
+    <div class="grid-3">
+      <div class="card"><span class="icon">📜</span><h3>Historia</h3><p>Más de 40 años forjando generaciones de excelencia en un ambiente de calidez y exigencia.</p></div>
+      <div class="card"><span class="icon">🏆</span><h3>Logros</h3><p>Reconocimientos nacionales e internacionales en robótica, olimpiadas de conocimiento y arte.</p></div>
+      <div class="card"><span class="icon">🧪</span><h3>Habilidades STEAM</h3><p>Fomentamos la ciencia, tecnología, ingeniería, arte y matemáticas desde temprana edad.</p></div>
+    </div>
+  </section>
+
+  <!-- ===== FILOSOFÍA ===== -->
+  <section class="section" id="filosofia">
+    <div class="filosofia">
+      <h2 style="color:#004e8c; font-size:2rem; margin-bottom:0.8rem;">Filosofía</h2>
+      <p style="max-width:750px; margin:0 auto; font-size:1.1rem; color:#1e293b;">
+        Creemos en una educación integral que desarrolla el pensamiento autónomo, la creatividad y el sentido ético.
+        Nuestra comunidad educativa promueve el diálogo, la inclusión y el respeto por la diversidad.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== NIVEL ACADÉMICO ===== -->
+  <section class="section" id="nivel">
+    <div class="section-block" style="text-align:center;">
+      <h2>Nivel Académico</h2>
+      <p>
+        Ofrecemos educación desde preescolar hasta bachillerato con un modelo basado en competencias.
+        Nuestro currículo integra idiomas, tecnología, arte y deportes, preparando a los estudiantes
+        para los retos del siglo XXI.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCIA JUVENIL ===== -->
+  <section class="section" id="experiencia">
+    <div class="section-block" style="text-align:center; background:#f9fafc;">
+      <h2>Experiencia Juvenil</h2>
+      <p>
+        Más que clases, ofrecemos experiencias transformadoras: intercambios culturales, voluntariado,
+        clubes de robótica, debate, arte, deportes y emprendimiento. Formamos ciudadanos globales
+        con conciencia local.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== INSTALACIONES (TOUR) ===== -->
+  <section class="section" id="instalaciones">
+    <h2 class="section-title">Instalaciones (Tour)</h2>
+    <div class="tour-grid">
+      <div class="tour-item"><span class="emoji">🏫</span><h4>Edificio académico</h4><p>Aulas interactivas y espacios colaborativos</p></div>
+      <div class="tour-item"><span class="emoji">🔬</span><h4>Laboratorios STEAM</h4><p>Robótica, química, física y biotecnología</p></div>
+      <div class="tour-item"><span class="emoji">📚</span><h4>Biblioteca</h4><p>Amplia colección física y digital, salas de estudio</p></div>
+      <div class="tour-item"><span class="emoji">⚽</span><h4>Áreas deportivas</h4><p>Canchas, gimnasio y piscina semiolímpica</p></div>
+      <div class="tour-item"><span class="emoji">🎨</span><h4>Espacios artísticos</h4><p>Teatro, música, artes plásticas y audiovisuales</p></div>
+      <div class="tour-item"><span class="emoji">🌳</span><h4>Áreas verdes</h4><p>Jardines y zonas de descanso al aire libre</p></div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>&copy; 2026 <span>Colegio Juvenal Rendon</span> · Todos los derechos reservados</p>
+    <p style="margin-top:0.3rem; font-size:0.8rem;">Calle del Saber 123 · contacto@colegiojuvenal.edu · +56 2 1234 5678</p>
+  </footer>
+
+  <!-- JavaScript externo -->
+  <script src="/js/script.js" defer></script>
+</body>
+</html>
