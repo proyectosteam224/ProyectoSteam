@@ -107,7 +107,7 @@ ul {
   background-color: #b5151c;
 }
 
-/* ===== CARRUSEL ===== */
+/* ===== CARRUSEL ===== 
 .carousel-container {
   position: relative;
   width: 100%;
@@ -176,6 +176,24 @@ ul {
 .carousel-indicators .dot.active {
   background: #ffffff;
   transform: scale(1.2);
+}*/
+
+/* ===== VIDEO ===== */
+.video-container {
+  width: 100%;
+  height: 80vh;         /* Ajusta la altura a tu gusto */
+  overflow: hidden;
+  background-color: #0b2b40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* Para que el video cubra todo el contenedor sin deformarse */
+  pointer-events: none;
 }
 
 /* ===== SECCIÓN NUESTRA INSTITUCIÓN ===== */
@@ -334,6 +352,9 @@ ul {
   .nav-right {
     margin-left: auto;
   }
+  .video-container {
+    height: 350px;
+  }
   .carousel-container {
     height: 350px;
   }
@@ -358,6 +379,9 @@ ul {
     justify-content: center;
     margin-left: 0;
     margin-top: 0.3rem;
+  }
+  .video-container {
+    height: 250px;
   }
   .carousel-container {
     height: 250px;
